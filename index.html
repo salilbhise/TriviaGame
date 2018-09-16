@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="assets/javascript/app.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+        <title>Rick and Morty Trivia Game</title>
+        <link rel="icon" href="assets/images/rickandmortyfavicon.png">
+    </head>
+
+    <body>
+
+	    <header id="masthead">
+		    <div class="container">
+			    <h1>Rick and Morty Trivia Game</h1>
+		    </div>
+        </header>
+        
+	    <div id="main-container" class="container">
+		    <section class="main-section">
+                <h1 class="instructions">Instructions</h1>
+                <p class="rules">You have one minute to answer five question about the show.</p>
+                <h2>
+                    <button type="button" id="start-button">Click here to start</button>
+                </h2>
+                <div id="show-number"></div>
+                <p class="question">1. What was Rick's favorite exhibit in Anatomy Park?</p>
+                <ul class="answers">
+                    <input type="radio" name="q1" value="a" id="aq1"><label for="aq1">The Bone Train</label><br/>
+                    <input type="radio" name="q1" value="b" id="aq2"><label for="aq2">Spleen Mountain</label><br/>
+                    <input type="radio" name="q1" value="c" id="aq3"><label for="aq3">Bladder Falls</label><br/>
+                    <input type="radio" name="q1" value="d" id="aq3"><label for="aq4">Pirates of the Pancreas</label><br/>
+                </ul>
+                <p class="question">2. What does Snuffles want to be called now that he abandoned his slave name?</p>
+                <ul class="answers">
+                    <input type="radio" name="q2" value="a" id="bq1"><label for="bq1">Snowbot</label><br/>
+                    <input type="radio" name="q2" value="b" id="bq2"><label for="bq2">Snowball</label><br/>
+                    <input type="radio" name="q2" value="c" id="bq3"><label for="bq3">Whitefur</label><br/>
+                    <input type="radio" name="q2" value="d" id="bq4"><label for="bq4">Morty gthe Dog</label><br/>
+                </ul>
+                <p class="question">3. Who is the voice actor for Rick Sanchez ?</p>
+                <ul class="answers">
+                    <input type="radio" name="q3" value="a" id="cq1"><label for="cq1">Justin Roiland</label><br/>
+                    <input type="radio" name="q3" value="b" id="cq2"><label for="cq2">Sarah Chalke</label><br/>
+                    <input type="radio" name="q3" value="c" id="cq3"><label for="cq3">Chris Parnell</label><br/>
+                    <input type="radio" name="q3" value="d" id="cq4"><label for="cq4">Spencer Grammer</label><br/>
+                </ul>
+                <p class="question">4. What color is Rick's hair?</p>
+                <ul class="answers">
+                    <input type="radio" name="q4" value="a" id="dq1"><label for="dq1">Orange</label><br/>
+                    <input type="radio" name="q4" value="b" id="dq2"><label for="dq2">Blue</label><br/>
+                    <input type="radio" name="q4" value="c" id="dq3"><label for="dq3">Brown</label><br/>
+                    <input type="radio" name="q4" value="d" id="dq4"><label for="dq4">White</label><br/>
+                </ul>
+                <p class="question">5. In the pilot, why did Rick want to blow up earth?</p>
+                <ul class="answers">
+                    <input type="radio" name="q5" value="a" id="eq1"><label for="eq1">He wanted a clean start</label><br/>
+                    <input type="radio" name="q5" value="b" id="eq2"><label for="eq2">He wanted to accomplish something</label><br/>
+                    <input type="radio" name="q5" value="c" id="eq3"><label for="eq3">He was bored</label><br/>
+                    <input type="radio" name="q5" value="d" id="eq4"><label for="eq4">He was angry</label><br/>
+                </ul>
+                <button type="button" id="submit">Done!</button>
+
+			    <div id="results1">
+			        Correct
+                </div>
+                <div id="results2">
+                    Incorrect
+                </div>
+                <div id="results3">
+                    Unanswered
+                </div>
+                
+                <button type="button" id="restart">Play again!</button>
+            
+            </section>
+	    </div>
+    </body>
+</html>
