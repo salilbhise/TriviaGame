@@ -1,7 +1,7 @@
 # Rick and Morty Trivia Game! 
 
 ## Overview
-A Rick and Morty themes trivia game that uses JavaScript for the logic and jQuery to manipulate HTML. 
+A Rick and Morty themed trivia game that uses JavaScript for the logic and jQuery to manipulate HTML. 
 
 ## How it Works
 
