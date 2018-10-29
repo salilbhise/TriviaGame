@@ -1,4 +1,4 @@
-# Rick and Morty Trivia Game! 
+# Rick and Morty Trivia Game! :Milky_Way:
 
 ## Overview
 A Rick and Morty themed trivia game that uses JavaScript for the logic and jQuery to manipulate HTML. 
