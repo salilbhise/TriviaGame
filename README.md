@@ -18,7 +18,7 @@ A Rick and Morty themed trivia game that uses JavaScript for the logic and jQuer
 
 Start:
 
-![alt text]()
+![alt text](http://i67.tinypic.com/2111gzk.png)
 
 Timed Quiz:
 
