@@ -1,18 +1,22 @@
 # Rick and Morty Trivia Game! 
 
 ## Overview
-A Rick and Morty themed trivia game that uses JavaScript for the logic and jQuery to manipulate HTML. 
+Wubbalubbadubdub! A trivia game that using JavaScript for logic and jQuery to manipulate HTML. 
 
 ## How it Works
 
-- Player selects multiple choice or true/false options to test their knowledge of of Adult Swim's hit show, Rick and Morty. 
+Select multiple choice or T/F options to test your knowledge of of Adult Swim's banger, Rick and Morty. 
 
-- The player will have a limited amount of time to finish the quiz.
-  - The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and         incorrectly.
+## Rules
 
-- Player can't pick more than one answer per question.
+- You have just 60 seconds to finish the quiz, so keep it moving! 
 
-- Includes a countdown timer. jQuery and the JavaScript setInterval() function to countdown from 60 seconds, timing the quiz.
+- Game ends when the timer runs out, and the page will reveal the number of questions answered correctly/incorrectly.
+
+- One answer per question. 
+
+## Timer 
+- The trivia game includes a countdown timer, which functions by using a setInterval function in jQuery and Javascript. 
 
 ## Preview 
 
