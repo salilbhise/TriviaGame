@@ -1,4 +1,4 @@
-# Rick and Morty Trivia Game! :milky_way:
+# Rick and Morty Trivia Game! 
 
 ## Overview
 A Rick and Morty themed trivia game that uses JavaScript for the logic and jQuery to manipulate HTML. 
@@ -13,3 +13,13 @@ A Rick and Morty themed trivia game that uses JavaScript for the logic and jQuer
 - Player can't pick more than one answer per question.
 
 - Includes a countdown timer. jQuery and the JavaScript setInterval() function to countdown from 60 seconds, timing the quiz.
+
+## Preview 
+
+Start:
+
+![alt text]()
+
+Timed Quiz:
+
+![alt text](http://i66.tinypic.com/2isa354.png)
