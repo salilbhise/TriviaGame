@@ -1,4 +1,4 @@
-# Rick and Morty Trivia Game! 
+# Rick and Morty Trivia Game! :books:
 
 ## Overview
 Wubbalubbadubdub! A trivia game that using JavaScript for logic and jQuery to manipulate HTML. 
