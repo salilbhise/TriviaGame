@@ -5,7 +5,7 @@ Wubbalubbadubdub! A trivia game that using JavaScript for logic and jQuery to ma
 
 ## How it Works
 
-Select multiple choice or T/F options to test your knowledge of of Adult Swim's banger, Rick and Morty. 
+Select multiple choice or T/F options to test your knowledge of of Adult Swim's hit show, Rick and Morty. 
 
 ## Rules
 
